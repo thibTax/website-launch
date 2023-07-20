@@ -1,17 +1,27 @@
 {
-	"name": "website-launch",
-	"version": "0.0.1",
-	"private": true,
-	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
-		"preview": "vite preview"
-	},
-	"devDependencies": {
-		"@sveltejs/adapter-auto": "^2.0.0",
-		"@sveltejs/kit": "^1.20.4",
-		"svelte": "^4.0.5",
-		"vite": "^4.4.2"
-	},
-	"type": "module"
+  "name": "website-launch",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@skeletonlabs/skeleton": "^1.10.0",
+    "@sveltejs/adapter-auto": "^2.0.0",
+    "@sveltejs/adapter-vercel": "^3.0.2",
+    "@sveltejs/kit": "^1.20.4",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "postcss-load-config": "^4.0.1",
+    "svelte": "^4.0.5",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.4.2"
+  },
+  "type": "module",
+  "dependencies": {
+    "firebase": "^10.0.0",
+    "skeleton": "^0.1.2"
+  }
 }
